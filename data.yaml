@@ -1,0 +1,13 @@
+train: C:/Users/adith/PycharmProjects/chessmate/train/images
+val: C:/Users/adith/PycharmProjects/chessmate/valid/images
+test: C:/Users/adith/PycharmProjects/chessmate/test/images
+
+nc: 1
+names: ['Chessboard-Corners']
+
+roboflow:
+  workspace: cqinc
+  project: chessboardcornerdetection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cqinc/chessboardcornerdetection/dataset/2
